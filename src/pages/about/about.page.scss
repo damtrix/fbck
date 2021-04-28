@@ -1,0 +1,19 @@
+.aboutus {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 4.5rem 0;
+    min-height: 100rem;
+
+
+    &__big {
+        flex: 0 0 65%;
+    }
+
+    &__small {
+        flex: 0 0 30%;
+    }
+  
+}
+

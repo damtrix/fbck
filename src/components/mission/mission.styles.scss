@@ -1,0 +1,50 @@
+.mission {
+    background-color: #fff;
+    padding: 2rem 2.5rem;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+
+
+        &-img {
+            width: 30rem;
+            margin-right: 3rem;
+        }
+
+        &-note {
+            display: flex;
+            flex-direction: column;
+    
+            &--full {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+.heading__1 {
+    font-size: 3rem;
+    font-weight: 200;
+
+
+    span {
+        color: #208ac7;
+    }
+
+    &::after {
+        content: "";
+        height: 1px;
+        background-color: #ccc;
+        display: block;
+        margin-bottom: 1.5rem;
+    }
+}
+
+.heading__2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    color: #208ac7;
+
+}

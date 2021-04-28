@@ -1,0 +1,19 @@
+.each-slide div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+  }
+  
+  .each-slide span {
+    padding: 1.3rem;
+    font-size: 1.3rem;
+    background: transparent;
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    margin-top: 2rem;
+    border: 2rem solid whitesmoke;
+  }

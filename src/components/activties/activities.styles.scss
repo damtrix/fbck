@@ -1,0 +1,25 @@
+.activities {
+
+    &__heading {
+        font-weight: 400;
+        color: #208ac7;
+        margin-bottom: 1.2rem;
+    }
+
+    &__body {
+        font-size: 1.5rem;
+        line-height: 2;
+        font-weight: 300;
+
+        
+    }
+
+    &:not(:last-child):after {
+        content: "";
+        height: 1px;
+        background-color: #aaa;
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
