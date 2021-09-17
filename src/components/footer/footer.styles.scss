@@ -1,0 +1,93 @@
+.footer__container {
+    background-color: #fff;
+    height: 30rem;
+    padding: 2rem 3rem;
+    border-top: .1rem solid #f4f2f2;
+
+}
+
+.copyright {
+
+    &::before {
+        content: "";
+        height: 1px;
+        background-color: #ccc;
+        display: block;
+        margin-top: 3rem;
+    }
+}
+.footer {
+    display: flex;
+
+    &__home {
+        display: flex;
+        height: 9rem;
+        flex: 0 0 30%;
+    }
+
+    &__worship {
+        flex: 0 0 17.5%;
+        
+        p {
+            color: #208ac7;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+    }
+
+    &__handles {
+        flex: 0 0 17.5%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        
+        &-link {
+            text-decoration: none;
+            color: #208ac7;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-top: 1rem;
+        }
+    }
+
+    &__links {
+        flex: 0 0 17.5%;
+    }
+
+    &__faithwork {
+        flex: 0 0 17.5%;
+    }
+
+    &__logo {
+        width: 8rem;
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: -.5rem;
+        align-items: center;
+
+        &-one {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        &-two {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: -.5rem;
+            color: #208ac7;
+        }
+    }
+
+    &__text {
+        font-size: 2rem;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+
+}

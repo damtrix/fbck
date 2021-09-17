@@ -1,0 +1,31 @@
+.service {
+    background-color: #fff;
+    padding: 2rem 3rem;
+   
+
+    &__title {
+        font-weight: 600;
+        line-height: 1;
+
+        &-1 {
+            font-size: 3rem;
+            margin-right: 1rem;
+        }
+
+        &-2 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            color: #208ac7;
+                     
+        }
+
+        &::after {
+            content: "";
+            height: 1px;
+            background-color: #aaa;
+            display: block;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+    }
+}

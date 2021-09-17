@@ -1,0 +1,49 @@
+.news {
+    padding: 0 3rem;
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+    
+
+    &__title {
+        font-size: 3rem;
+        margin-bottom: -2rem;
+
+        &-1 {
+
+        }
+
+        &-2 {
+            color: #208ac7;
+        }
+    }
+
+    &__btn {
+
+        &::after {
+            content: "";
+            height: 1px;
+            background-color: #aaa;
+            display: block;
+            margin-top: -2rem;
+            
+        }
+    }
+
+    &__theme {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #208ac7;
+        margin-top: 2.5rem;
+    }
+
+    &__verse {
+        margin-top: .5rem;
+        color: orangered;
+    }
+
+    &__date {
+        
+    }
+}

@@ -1,0 +1,60 @@
+/*
+COLORS
+
+Primary: #055482
+Primary light: #208ac7
+Primary dark: #024e7a
+primary background: #fffff2 
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+grey-light-5: #f9f7f6;
+grey-light-6: #aaa;
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+Grey dark 4: #54483A;
+grey-dark-5: #6D5D4B;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;      /* so that 1rem = 10px, 10px/16px = 62.5% */
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EAEAEA;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+
+  
+/*   font-weight: 400;
+
+  line-height: 1.6;
+  color: #777;
+  background-image: #fffff2 ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+  min-height: 100vh; */
+}

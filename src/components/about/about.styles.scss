@@ -1,0 +1,48 @@
+.about {
+    background-color: #fff;
+    padding: 2rem 3rem;
+    &__name {
+        
+        &-firstname {
+            font-size: 3rem;
+            font-weight: 600;
+            margin-right: 1rem;
+        }
+
+        &-lastname {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #208ac7;
+
+        }
+
+        &::after {
+            content: "";
+            height: 1px;
+            background-color: #aaa;
+            display: block;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        border: .1rem solid #f4f2f2;
+    }
+
+    &__title {
+        color: #208ac7;
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    &__note {
+        color: #333;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        line-height: 2;
+        font-weight: 300;
+
+    }
+}
