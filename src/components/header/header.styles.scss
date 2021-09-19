@@ -1,72 +1,65 @@
 .header {
-    background-color: #fff;
+  background-color: #fff;
+  height: 7rem;
+  border-bottom: 0.1rem solid #f4f2f2;
+  display: flex;
+  align-items: center;
+
+  &__logo {
     height: 7rem;
-    border-bottom: .1rem solid #f4f2f2;
+    margin-left: 2rem;
+    margin-right: 0.5rem;
+  }
+
+  &__title {
     display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
     align-items: center;
+    margin-right: auto;
+  }
 
+  &__title-one {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
+  &__title-two {
+    font-size: 1rem;
+    font-weight: 600;
+  }
 
+  &__nav {
+    display: flex;
+    align-content: space-between;
 
-    &__logo {
-        height: 7rem;
-        margin-left: 2rem;
-        margin-right: .5rem;
+    & > * {
+      padding: 0 2rem;
+      height: 6rem;
+      display: flex;
+      align-items: center;
+      transition: all 0.2s;
     }
 
-    &__title {
-        display: flex;
-        flex-direction: column;
-        text-transform: uppercase;
-        align-items: center;
-        margin-right: auto;
+    & > *:hover {
+      background-color: #f0eeee;
+      transform: translateY(-0.3rem);
     }
+  }
 
-    &__title-one {
-        font-size: 2rem;
-        font-weight: 600;
-    }
-
-    &__title-two {
-        font-size: 1rem;
-        font-weight: 600;
-    }
-
-    &__nav {
-        display: flex;
-        align-content: space-between;
-
-        & > * {
-            padding: 0 2rem;
-            height: 6rem;
-            display: flex;
-            align-items: center;
-            transition: all .2s;
-        }
-    
-        & > *:hover {
-            background-color: #f0eeee;
-            transform: translateY(-0.3rem);
-        }
-    }
-
-    &__link:link,
-    &__link:visited {
-        text-decoration: none;
-        font-size: 1.4rem;
-        font-weight: 400;
-        color: #333;
-    }
-
-    &__option {
-
-    }
-
-    &__option-one {
-
-    }
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #333;
+  }
+  &__option-one {
+    font-weight: 900;
+    color: rgb(8, 8, 8);
+  }
 }
 
 .is-active {
-    background-color: #f0eeee;
+  border-bottom: 2px solid rgb(15, 14, 14);
 }
