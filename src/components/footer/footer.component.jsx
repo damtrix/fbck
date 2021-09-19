@@ -61,7 +61,7 @@ const Footer = () => {
             
             </div>
 
-            <p className="copyright">First Baptist Church, Keffi, Nasarawa State &copy; 2020. Privacy policy</p>
+            <p className="copyright">First Baptist Church, Keffi, Nasarawa State &copy; {new Date().getFullYear()}. Privacy Policy</p>
         </div>
     )
 }
